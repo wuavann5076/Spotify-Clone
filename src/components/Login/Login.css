@@ -1,24 +1,28 @@
 .login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-    background-color: #1d9b54;
-    gap: 5rem
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #1d9b54;
+  gap: 5rem;
 }
 
 .logo-spotify {
-    height: 20vh;
+  height: 20vh;
 }
 
 .connect-btn {
-    padding: 1rem 5rem;
-    border-radius: 5rem;
-    border: none;
-    background-color: #000000;
-    color: #49f585;
-    font-size: 1.4rem;
-    cursor: pointer;
+  padding: 1rem 5rem;
+  border-radius: 5rem;
+  border: none;
+  background-color: #000000;
+  color: #49f585;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+.connect-btn:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
